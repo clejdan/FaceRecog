@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -lh /home/clejah/wildWest/*.png /home/clejah/wildWest/*.jpg)",
+      "Bash(ls /home/clejah/wildWest/venv/lib/python*/site-packages/)",
+      "Bash(python3 -c \"from PIL import ImageFont; print\\(ImageFont.__file__\\)\")",
+      "Bash(python3 -c \"import cv2; print\\(cv2.data.haarcascades\\)\")",
+      "Bash(/home/clejah/wildWest/venv/bin/python3 -c \"import cv2; print\\(cv2.__version__\\); print\\(cv2.data.haarcascades\\)\")",
+      "Bash(/home/clejah/ww_b/bin/python3 -c \"import requests; print\\(''requests available''\\)\")",
+      "Bash(/home/clejah/wildWest/venv/bin/python3 -c \":*)",
+      "Bash(/home/clejah/wildWest/venv/bin/pip list)"
+    ]
+  }
+}
